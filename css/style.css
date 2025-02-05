@@ -1,0 +1,111 @@
+*{
+
+box-sizing: border-box;
+
+}
+
+body {
+  background-color: #F5F5F5;
+  padding: 15px;
+  font-family: "Inter", serif;
+  
+}
+
+.page-wrapper {
+  overflow: hidden;
+  max-width: 375px;
+  margin:auto;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  background: #ADADAD;
+  border-radius: 20px;
+ 
+}
+
+.container{
+max-width: 300px;
+margin: auto;
+
+}
+.header {
+  color:#ffffff;
+  padding: 40px 40px 145px;
+  border-radius: 0 0 90px 90px;
+  background:linear-gradient(0deg, rgba(58, 58, 58, 0.6), rgba(58, 58, 58, 0.6)), url("../img/header.jpg") no-repeat center / cover;
+  
+}
+.hello {
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+}
+
+.hello-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+
+}
+
+.user {
+  margin: 15px;
+  margin-top: -79px;
+  text-align: center;
+  background:#CDCDCD;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding-bottom: 20px;
+  height: 132px;
+
+}
+
+.user-avatar{
+margin-top: -40px;
+border-radius: 50%;
+object-fit: cover;
+border: 2px solid #8b8b8b;
+}
+.user-name {
+
+font-weight: 600;
+font-size: 20px;
+text-align: center;
+color: #000000;
+}
+
+.user-description {
+
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #000;
+
+}
+
+.card{
+ background: #CDCDCD;
+ box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.25);
+ border-radius: 10px;
+ margin-top: 12px;
+ margin-bottom: 12px;
+ padding: 20px;
+
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 260px;
+  margin: auto;
+  gap: 10px;
+}
+.button {
+background-color: #D9D9D9;
+display: flex;
+align-items: center;
+justify-content: center;
+height: 40px;
+flex-shrink: 1;
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+}
